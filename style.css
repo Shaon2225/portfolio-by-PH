@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px;
+    background-color: #fef9f8;
+}
+
+.header-topic{
+    display: flex;
+    margin: 8%;
+}
+
+.header-text{
+    width: 50%;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    border-left: 7px solid olivedrab;
+    padding: 20px;
+}
+
+.header-text h1 span{
+    color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text p{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.header-text a{
+    background-color: peru;
+    color: #fff6ff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.header-topic img{
+    width: 40%;
+    height: 400px;
+}
+
+.mid-section h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+
+}
+
+.mid-section h1 span{
+    color: olivedrab;
+}
+
+.goals{
+    display: flex;
+    margin: 20px;
+}
+
+.goals div{
+    padding: 20px;
+    width: 33%;
+}
+
+.goals img{
+    width: 100px;
+    height: 100px;
+}
+
+#goal1{
+    background-color: palegoldenrod;
+    border-radius:15px ;
+    margin: 15px;
+}
+
+#goal2{
+    background-color: #f0e67b;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#goal3{
+    background-color: #f7e849;
+    border-radius: 15px;
+    margin: 15px;
+}
